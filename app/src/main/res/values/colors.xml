@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_activity">#F6EEDE</color>
+    <color name="text_action_add">#305428</color>
+    <color name="text_action_remove">#FF0000</color>
+    <color name="button">#4C6E46</color>
+
+    <color name="dark_gray">#616161</color>
+    <color name="light_gray">#BDBDBD</color>
+</resources>

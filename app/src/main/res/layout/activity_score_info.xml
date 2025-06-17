@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_activity"
+    android:fillViewport="true"
+    tools:context=".ui.activity.ScoreInfoActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextHeader"
+            android:layout_gravity="center"
+            android:text="Como funciona?" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_gray" />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="adicionar pontos"
+            android:textColor="@color/text_action_add" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TextItem"
+            android:text="• Insira todas as cartas e canastras que foram baixadas na mesa." />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextItem"
+            android:text="• Use os botões “+” e “−” para ajustar a quantidade de cada tipo de carta ou combinação." />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextItem"
+            android:text="• Ative a opção “Morto” se tiver pego a segunda mão." />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextItem"
+            android:text="• Ative “Batida” se você bateu (encerrou a partida)." />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/TextItem"
+            android:text="• Após o preenchimento, clique em “PRÓXIMO”." />
+
+        <TextView
+            style="@style/SubTitle"
+            android:text="remover pontos"
+            android:textColor="@color/text_action_remove" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/TextItem"
+            android:text="• Insira todas as cartas que permaneceram em sua mão no fim da partida (não foram baixadas)." />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/TextItem"
+            android:text="• Elas serão descontadas da pontuação total." />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/TextItem"
+            android:text="• Use os botões “+” e “−” para ajustar a quantidade de cada tipo de carta" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/TextItem"
+            android:text="• Ao finalizar, clique em “CALCULAR PONTUAÇÃO”" />
+
+        <TextView
+            style="@style/TextHeader"
+            android:layout_gravity="center"
+            android:text="valores cartas/canastras" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_gray" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• 8-9-10-J-Q-K (10 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• 3-4-5-6-7 (5 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Curinga 2 e Joker (20 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Ás (15 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Canastra Limpa (200 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Canastra Suja (100 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Canastra Real (500 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Canastra Ás a Ás (1000 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:text="• Morto (100 pontos)" />
+
+        <TextView
+            style="@style/TextItem"
+            android:layout_marginBottom="20dp"
+            android:text="• Batida (100 pontos)" />
+
+    </LinearLayout>
+</ScrollView>

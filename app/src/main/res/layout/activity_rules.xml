@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_activity"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <!-- Seção: Aberto -->
+        <TextView
+            style="@style/TextHeader"
+            android:text="Aberto" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/TextItem"
+            android:text="• Sem jokers." />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextItem"
+            android:text="• Só sequências (Sem trincas)." />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextItem"
+            android:text="• É necessário canastra limpa para bater." />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/TextItem"
+            android:text="• Sequência de Ás a Ás é permitida." />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/TextItem"
+            android:text="• É possível bater descartando uma carta ou colocando-a em um jogo." />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/TextItem"
+            android:text="• Lixo aberto." />
+
+        <!-- Seção: Aberto sujo -->
+        <TextView
+            style="@style/TextHeader"
+            android:text="Aberto sujo" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/TextItem"
+            android:text="• Com jokers." />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/TextItem"
+            android:text="• Sequências e trincas (Sem trincas de 2)." />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/TextItem"
+            android:text="• É possível bater com canastra suja." />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/TextItem"
+            android:text="• Não é permitido sequência de Ás a Ás (permite-se Ás, 2 ..., Q, K, 2/joker)." />
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/TextItem"
+            android:text="• É necessário descartar uma carta para poder bater." />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/TextItem"
+            android:text="• Lixo aberto." />
+
+        <!-- Seção: Fechado -->
+        <TextView
+            style="@style/TextHeader"
+            android:text="Fechado" />
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/TextItem"
+            android:text="• Com jokers." />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/TextItem"
+            android:text="• Sequências e trincas." />
+
+        <TextView
+            android:id="@+id/textView15"
+            style="@style/TextItem"
+            android:text="• É necessário canastra limpa para bater." />
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/TextItem"
+            android:text="• Sequência de Ás a Ás é permitida." />
+
+        <TextView
+            android:id="@+id/textView17"
+            style="@style/TextItem"
+            android:text="• É possível bater descartando uma carta ou colocando-a em um jogo." />
+
+        <TextView
+            android:id="@+id/textView18"
+            style="@style/TextItem"
+            android:text="• Lixo fechado: para poder pegar as cartas do lixo, é obrigatório abrir um jogo com a última imediatamente." />
+
+        <!-- Seção: Fechado STBL -->
+        <TextView
+            style="@style/TextHeader"
+            android:text="Fechado STBL" />
+
+        <TextView
+            android:id="@+id/textView19"
+            style="@style/TextItem"
+            android:text="• Com jokers." />
+
+        <TextView
+            android:id="@+id/textView20"
+            style="@style/TextItem"
+            android:text="• Só sequências (Sem trincas)." />
+
+        <TextView
+            android:id="@+id/textView21"
+            style="@style/TextItem"
+            android:text="• É necessário canastra limpa para bater." />
+
+        <TextView
+            android:id="@+id/textView22"
+            style="@style/TextItem"
+            android:text="• Sequência de Ás a Ás é permitida." />
+
+        <TextView
+            android:id="@+id/textView23"
+            style="@style/TextItem"
+            android:text="• É possível bater descartando uma carta ou colocando-a em um jogo." />
+
+        <TextView
+            android:id="@+id/textView24"
+            style="@style/TextItem"
+            android:text="• Lixo fechado: para poder pegar as cartas do lixo, é obrigatório abrir um jogo com a última imediatamente." />
+
+        <!-- Seção: Fechado sujo -->
+        <TextView
+            style="@style/TextHeader"
+            android:text="Fechado sujo" />
+
+        <TextView
+            android:id="@+id/textView25"
+            style="@style/TextItem"
+            android:text="• Com jokers." />
+
+        <TextView
+            android:id="@+id/textView26"
+            style="@style/TextItem"
+            android:text="• Sequências e trincas." />
+
+        <TextView
+            android:id="@+id/textView27"
+            style="@style/TextItem"
+            android:text="• É possível bater com canastra suja." />
+
+        <TextView
+            android:id="@+id/textView28"
+            style="@style/TextItem"
+            android:text="• Sequência de Ás a Ás é permitida." />
+
+        <TextView
+            android:id="@+id/textView29"
+            style="@style/TextItem"
+            android:text="• É possível bater descartando uma carta ou colocando-a em um jogo." />
+
+        <TextView
+            android:id="@+id/textView30"
+            style="@style/TextItem"
+            android:layout_marginBottom="20dp"
+            android:text="• Lixo fechado: para poder pegar as cartas do lixo, é obrigatório abrir um jogo com a última imediatamente." />
+    </LinearLayout>
+</ScrollView>
